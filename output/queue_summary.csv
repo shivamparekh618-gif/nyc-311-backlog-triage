@@ -1,0 +1,7 @@
+type,status,open_now,over_target,over_share,target_days,median_days_to_close,median_open_age,opened_per_week,closed_per_week,net_per_week,backlog_4w_ago,projected_open,weeks_to_clear
+Street Light Condition,Growing,295,213,0.72,10.0,21.73,15.68,71.75,43.75,28.0,183,407,
+Sidewalk Condition,Chronic,244,118,0.48,30.0,29.13,28.51,36.5,27.5,9.0,208,280,
+Traffic Signal Condition,Healthy,18,7,0.39,3.0,1.01,2.44,46.5,45.25,1.25,13,23,
+Street Condition,Healthy,29,0,0.0,14.0,0.9,2.38,160.75,168.75,-8.0,61,0,3.62
+Broken Parking Meter,Healthy,8,0,0.0,7.0,2.09,3.17,22.5,25.5,-3.0,20,0,2.67
+Highway Condition,Healthy,5,0,0.0,14.0,0.37,3.45,14.25,13.75,0.5,3,7,

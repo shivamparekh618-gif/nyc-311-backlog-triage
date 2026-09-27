@@ -1,0 +1,127 @@
+complaint_type,week_start,opened,closed,backlog_end_of_week
+Street Light Condition,2026-04-06,78,66,12
+Street Light Condition,2026-04-13,77,71,18
+Street Light Condition,2026-04-20,100,92,26
+Street Light Condition,2026-04-27,63,76,13
+Street Light Condition,2026-05-04,74,66,21
+Street Light Condition,2026-05-11,67,71,17
+Street Light Condition,2026-05-18,82,76,23
+Street Light Condition,2026-05-25,80,84,19
+Street Light Condition,2026-06-01,71,76,14
+Street Light Condition,2026-06-08,88,85,17
+Street Light Condition,2026-06-15,75,78,14
+Street Light Condition,2026-06-22,77,78,13
+Street Light Condition,2026-06-29,87,46,54
+Street Light Condition,2026-07-06,69,44,79
+Street Light Condition,2026-07-13,76,46,109
+Street Light Condition,2026-07-20,87,50,146
+Street Light Condition,2026-07-27,85,48,183
+Street Light Condition,2026-08-03,65,36,212
+Street Light Condition,2026-08-10,65,40,237
+Street Light Condition,2026-08-17,84,44,277
+Street Light Condition,2026-08-24,73,55,295
+Sidewalk Condition,2026-04-06,31,23,8
+Sidewalk Condition,2026-04-13,37,30,15
+Sidewalk Condition,2026-04-20,30,17,28
+Sidewalk Condition,2026-04-27,42,19,51
+Sidewalk Condition,2026-05-04,33,22,62
+Sidewalk Condition,2026-05-11,46,15,93
+Sidewalk Condition,2026-05-18,38,31,100
+Sidewalk Condition,2026-05-25,42,20,122
+Sidewalk Condition,2026-06-01,34,27,129
+Sidewalk Condition,2026-06-08,25,27,127
+Sidewalk Condition,2026-06-15,32,26,133
+Sidewalk Condition,2026-06-22,40,28,145
+Sidewalk Condition,2026-06-29,36,25,156
+Sidewalk Condition,2026-07-06,40,28,168
+Sidewalk Condition,2026-07-13,33,22,179
+Sidewalk Condition,2026-07-20,32,23,188
+Sidewalk Condition,2026-07-27,43,23,208
+Sidewalk Condition,2026-08-03,37,29,216
+Sidewalk Condition,2026-08-10,38,24,230
+Sidewalk Condition,2026-08-17,34,35,229
+Sidewalk Condition,2026-08-24,37,22,244
+Traffic Signal Condition,2026-04-06,47,39,8
+Traffic Signal Condition,2026-04-13,48,45,11
+Traffic Signal Condition,2026-04-20,44,37,18
+Traffic Signal Condition,2026-04-27,37,42,13
+Traffic Signal Condition,2026-05-04,36,45,4
+Traffic Signal Condition,2026-05-11,48,37,15
+Traffic Signal Condition,2026-05-18,38,44,9
+Traffic Signal Condition,2026-05-25,47,48,8
+Traffic Signal Condition,2026-06-01,36,37,7
+Traffic Signal Condition,2026-06-08,60,45,22
+Traffic Signal Condition,2026-06-15,47,57,12
+Traffic Signal Condition,2026-06-22,48,51,9
+Traffic Signal Condition,2026-06-29,43,43,9
+Traffic Signal Condition,2026-07-06,46,37,18
+Traffic Signal Condition,2026-07-13,54,49,23
+Traffic Signal Condition,2026-07-20,51,52,22
+Traffic Signal Condition,2026-07-27,33,42,13
+Traffic Signal Condition,2026-08-03,49,38,24
+Traffic Signal Condition,2026-08-10,32,51,5
+Traffic Signal Condition,2026-08-17,42,40,7
+Traffic Signal Condition,2026-08-24,63,52,18
+Street Condition,2026-04-06,144,102,42
+Street Condition,2026-04-13,188,192,38
+Street Condition,2026-04-20,159,160,37
+Street Condition,2026-04-27,159,152,44
+Street Condition,2026-05-04,170,169,45
+Street Condition,2026-05-11,478,193,330
+Street Condition,2026-05-18,166,187,309
+Street Condition,2026-05-25,151,185,275
+Street Condition,2026-06-01,162,189,248
+Street Condition,2026-06-08,166,200,214
+Street Condition,2026-06-15,170,187,197
+Street Condition,2026-06-22,158,183,172
+Street Condition,2026-06-29,153,158,167
+Street Condition,2026-07-06,157,179,145
+Street Condition,2026-07-13,190,182,153
+Street Condition,2026-07-20,153,206,100
+Street Condition,2026-07-27,153,192,61
+Street Condition,2026-08-03,162,171,52
+Street Condition,2026-08-10,164,183,33
+Street Condition,2026-08-17,156,148,41
+Street Condition,2026-08-24,161,173,29
+Broken Parking Meter,2026-04-06,31,19,12
+Broken Parking Meter,2026-04-13,20,24,8
+Broken Parking Meter,2026-04-20,27,23,12
+Broken Parking Meter,2026-04-27,23,24,11
+Broken Parking Meter,2026-05-04,27,33,5
+Broken Parking Meter,2026-05-11,35,28,12
+Broken Parking Meter,2026-05-18,25,28,9
+Broken Parking Meter,2026-05-25,31,32,8
+Broken Parking Meter,2026-06-01,24,16,16
+Broken Parking Meter,2026-06-08,21,27,10
+Broken Parking Meter,2026-06-15,28,20,18
+Broken Parking Meter,2026-06-22,33,22,29
+Broken Parking Meter,2026-06-29,25,29,25
+Broken Parking Meter,2026-07-06,25,28,22
+Broken Parking Meter,2026-07-13,18,23,17
+Broken Parking Meter,2026-07-20,28,27,18
+Broken Parking Meter,2026-07-27,29,27,20
+Broken Parking Meter,2026-08-03,17,26,11
+Broken Parking Meter,2026-08-10,31,29,13
+Broken Parking Meter,2026-08-17,21,29,5
+Broken Parking Meter,2026-08-24,21,18,8
+Highway Condition,2026-04-06,16,10,6
+Highway Condition,2026-04-13,16,16,6
+Highway Condition,2026-04-20,15,20,1
+Highway Condition,2026-04-27,21,19,3
+Highway Condition,2026-05-04,19,14,8
+Highway Condition,2026-05-11,19,25,2
+Highway Condition,2026-05-18,22,17,7
+Highway Condition,2026-05-25,16,21,2
+Highway Condition,2026-06-01,14,12,4
+Highway Condition,2026-06-08,21,18,7
+Highway Condition,2026-06-15,19,20,6
+Highway Condition,2026-06-22,22,21,7
+Highway Condition,2026-06-29,25,29,3
+Highway Condition,2026-07-06,24,22,5
+Highway Condition,2026-07-13,25,21,9
+Highway Condition,2026-07-20,25,27,7
+Highway Condition,2026-07-27,10,14,3
+Highway Condition,2026-08-03,14,12,5
+Highway Condition,2026-08-10,15,15,5
+Highway Condition,2026-08-17,12,14,3
+Highway Condition,2026-08-24,16,14,5
