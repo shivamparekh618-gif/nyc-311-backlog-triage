@@ -1,5 +1,11 @@
 # NYC 311 Backlog Triage
 
+[![tests](https://github.com/shivamparekh618-gif/nyc-311-backlog-triage/actions/workflows/tests.yml/badge.svg)](https://github.com/shivamparekh618-gif/nyc-311-backlog-triage/actions/workflows/tests.yml)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
+![Data: NYC Open Data](https://img.shields.io/badge/data-NYC%20Open%20Data-orange)
+![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
+
 **A city team has a pile of open service requests. Which queue actually needs attention this week, and which one only looks bad?**
 
 311 dashboards usually show counts: how many requests are open, how many came in. Counts alone don't tell a team lead what to do. The biggest backlog might be shrinking on its own, and a mid-sized one might be quietly doubling. This project takes a 311 extract and sorts every complaint type into one of three situations, because each needs a different response:
@@ -14,20 +20,32 @@ It then writes a one-page briefing a team lead could read in two minutes.
 
 > **Portfolio prototype.** The code is written for the real [NYC 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset, and `triage/fetch.py` downloads it. The results and screenshot below come from a **synthetic sample in the same schema** (`data/sample_311_requests.csv`), so the repo runs offline and the tests have known answers. The resolution targets are my placeholders, not official NYC service levels.
 
-![Backlog briefing](docs/backlog_briefing.png)
+**[Open the live briefing →](https://shivamparekh618-gif.github.io/nyc-311-backlog-triage/)**
+
+[![Backlog briefing](docs/backlog_briefing.png)](https://shivamparekh618-gif.github.io/nyc-311-backlog-triage/)
+
+### At a glance
+
+| | |
+|---|---|
+| **Problem** | Open-request counts don't tell a team lead which queue needs help and which will recover on its own |
+| **Data** | NYC 311 schema; results below from a 21-week synthetic sample (8,470 requests) |
+| **Built** | Cleaning rules for known 311 data issues, weekly queue math in SQL, Growing / Chronic / Healthy classification, closure-drop detection, one-page briefing |
+| **Key finding** | Street-light closures fell 41% the week of June 29 while reports held steady. That queue holds 63% of all past-target requests |
+| **The trap it avoids** | The biggest backlog in May cleared on its own; reacting to it would have pulled crews from the queue about to break |
 
 ---
 
 ## Run it
 
-Python 3.9+, standard library only.
+Python 3.10+, standard library only.
 
 ```bash
 git clone https://github.com/shivamparekh618-gif/nyc-311-backlog-triage.git
 cd nyc-311-backlog-triage
 
 python run.py --sample       # synthetic sample → output/backlog_briefing.html
-python -m unittest -v        # 7 tests
+python -m unittest -v        # 7 tests (also run on every push by GitHub Actions)
 
 # Real data: DOT requests in Brooklyn for one summer
 python -m triage.fetch --agency DOT --borough BROOKLYN --start 2025-05-01 --end 2025-09-01
